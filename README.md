@@ -1,1 +1,2 @@
-# git-collab-practice
+# Git Collab Practice
+This is our practice repo!
