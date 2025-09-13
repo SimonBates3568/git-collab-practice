@@ -16,3 +16,37 @@ h1 {
 p {
   max-width: 60ch;
 }
+nav {
+  margin-bottom: 5rem;
+  border-bottom: 2px solid #4f8cff;
+  padding-bottom: 0.75rem;
+  display: flex;
+  gap: 1.5rem;
+  background: linear-gradient(90deg, #e0e7ff 0%, #f0fdfa 100%);
+  border-radius: 0 0 1rem 1rem;
+  box-shadow: 0 4px 12px rgba(79, 140, 255, 0.08);
+  align-items: center;
+  transition: background 0.3s;
+}
+
+/* Remove list dots from nav lists */
+nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav a {
+  color: #4f8cff;
+  text-decoration: none;
+  font-weight: 500;
+  padding: 0.5rem 1rem;
+  border-radius: 0.5rem;
+  transition: background 0.2s, color 0.2s;
+}
+
+nav a:hover,
+nav a:focus {
+  background: #4f8cff;
+  color: #fff;
+}
