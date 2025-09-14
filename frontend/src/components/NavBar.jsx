@@ -1,4 +1,9 @@
 function NavBar() {
+
+  const handleClick = () => {
+    window.location.href = '/cart';
+  };
+
   return (
     <header className="navbar">
       <div className="logo">
@@ -23,7 +28,7 @@ function NavBar() {
       </nav>
       <div className="actions">
         <button className="btn">Sign In</button>
-        <button className="btn primary">Cart 🛒</button>
+        <button onClick={handleClick} className="btn primary">Cart 🛒</button>
       </div>
     </header>
   );
