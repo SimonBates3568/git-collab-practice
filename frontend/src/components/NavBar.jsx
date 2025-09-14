@@ -1,22 +1,23 @@
-export default function NavBar() {
+function NavBar() {
   return (
     <header className="navbar">
       <div className="logo">
+      
         Shop<span>Mate</span>
       </div>
       <nav>
         <ul>
           <li>
-            <a href="#">Home</a>
+            <a href="/">Home</a>
           </li>
           <li>
-            <a href="#">Products</a>
+            <a href="/products">Products</a>
           </li>
           <li>
-            <a href="#">Deals</a>
+            <a href="/deals">Deals</a>
           </li>
           <li>
-            <a href="#">Contact</a>
+            <a href="/contact">Contact</a>
           </li>
         </ul>
       </nav>
@@ -27,3 +28,5 @@ export default function NavBar() {
     </header>
   );
 }
+export default NavBar;
+
